@@ -3,7 +3,7 @@
 function BinarioADecimal(num) {
   //10
   var res = 0;
-  var reversa = num.split("").reverse(); //01
+  var reversa = num.split("").reverse();
 
   for (let i = 0; i < reversa.length; i++) {
     res += 2 ** i * reversa[i];
