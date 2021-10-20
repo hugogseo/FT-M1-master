@@ -38,7 +38,7 @@ function Queue() {
   this.cola = [];
 }
 Queue.prototype.enqueue = function (num) {
-  return this.cola.push(num);
+  this.cola.push(num);
 };
 
 Queue.prototype.dequeue = function () {
